@@ -1,3 +1,4 @@
+.gitignore
 .gitattributes
 .DS_Store
 *.skops
