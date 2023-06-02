@@ -41,6 +41,8 @@ def train_model(data):
     print(f'Recall: {round(recall_score(y_actual, y_prediction_rf, pos_label="anomaly") * 100, 2)}%')
     print(f'F1 Score: {round(f1_score(y_actual, y_prediction_rf, pos_label="anomaly") * 100, 2)}%')
 
+    # If required, the code for persisting the model can be copyied from above and added here.
+
 
 
 # Function to apply the trained model and make predictions
